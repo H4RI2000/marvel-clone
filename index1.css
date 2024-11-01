@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+header{
+    display: flex;
+    justify-content:space-evenly ;
+    margin-top: 5px;
+    background-color:rgb(55, 51, 51);
+    padding: 15px 0px;
+    color: white;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1000;
+
+}
+.navigator{
+margin-right:0%;
+}
+.navigator ul{
+    display: flex;
+    
+
+}
+.navigator ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+ul li:hover{
+    color: black;
+    cursor: grab;
+}
+title{
+    margin-right: 300px;
+}
+.sect{
+    background-image: url('wp7954747-avengers-endgame-hawkeye-wallpapers.jpg');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sect > p{
+    position: absolute;
+    margin-top: 750px;
+    margin-right: 50px;
+    font-size: 25px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid  rgba(95, 158, 160, 0.165) ;
+    background-color: rgba(113, 116, 116, 0.266)
+
+}
+.sect>h2{
+    text-align: center;
+    padding: 1.5%;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+
+}
+.card{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 2%;
+    background-color:  rgba(95, 158, 160, 0.9);
+  
+}
+.row{
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: rgb(237, 29, 36);
+    text-shadow: 2px 6px 8px rgba(104, 107, 109, 0.623);
+
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.txt{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+
+
+}
+.card:hover{
+    background-color: rgb(237, 29, 36) ;
+    transition: 0.9s;
+}
+#arr{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 1040px;
+
+
+
+}
+#arrow{
+    position: absolute;
+    margin-top: 175px;
+    margin-right: 400px;
+
+
+
+}
+.hed{
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: rgb(255, 253, 253);
+    text-shadow: 2px 6px 5px rgba(104, 107, 109, 0.623);
+   
+}
+.mcu{padding: 5%;
+    background-image: url('wp4884827-avengers-endgame-final-battle-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    
+    
+}
+.para{
+    display: flex;
+
+    margin-top: 950px;
+
+    font-size: 25px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid  rgba(58, 63, 63, 0.165) ;
+    background-color: rgba(58, 63, 63, 0.508);    
+
+}
+
+.video{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 2%;
+}
+.chara{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    text-transform: uppercase;
+    color:  rgba(237, 29, 36, 0.713);
+
+}
+.hero{
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: rgb(237, 29, 36);
+    text-shadow: 2px 6px 5px rgba(104, 107, 109, 0.623);
+  
+}
+
+.button{
+    margin-top: 40px;
+    margin-left: 550px;
+    padding: 8px 16px;
+    background-color: rgb(58, 150, 200);
+    color:rgb(250, 236, 236);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px  rgb(5, 35, 51) inset;
+    width: 200px;
+    height: 35px;
+    
+}
+.more{
+    padding: 2%;
+}
+.button:hover{
+    background-color: rgb(224, 30, 16);
+    transition: 0.5s;
+    color: rgb(226, 241, 247);
+}
+.foot{
+    background-image: url('avengers-minimalist-4k-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+  
+}
+#marvel{
+
+
+    text-transform: uppercase;
+    font-size: 60px;
+    color: rgb(255, 253, 253);
+
+   
+ 
+
+
+
+}
+.link {
+    display: flex;
+    position: absolute;
+    justify-content:space-evenly ;
+    margin-top:-155px;
+    padding: 15px 0px;
+    color: rgb(255, 255, 255);
+}
+.link ul{
+    display: flex;
+    margin-left: 800px;
+}
+.link ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-right: 5px;
+    font-weight:lighter;
+    margin-top:80px;
+    font-size: 20px;
+
+}
+.link ul li:hover{
+    color: rgba(140, 131, 131, 0.47);
+    cursor: grab;
+}
+.glass{
+
+    height: 300px;
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    position: absolute;
+    margin-top: 100px;
+ 
+}
+.footer li{
+    list-style: none;
+    color: white;
+}
+.footer li:hover{
+    color: rgba(140, 131, 131, 0.47);
+    cursor: grab;
+
+}
+h4{
+    color: white;
+    margin-top: 150px;
+    margin-left: -750px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+
+
+}
+
